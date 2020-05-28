@@ -16,7 +16,7 @@ body, html {
 
 .welcome, .aboutMe, .contactInfo , .projects{
   position: relative;
-
+  background-color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ background: white;
   margin: 0 auto;
   width: 700px;
   height: 100px;
-  color: white;
+  color:black;
   font-size: 45px;
 }
 
@@ -106,7 +106,7 @@ background: white;
   left: 100px;
   width: 600px;
   height: 350px;
-  color: white;
+  color:black;
   font-size: 130%;
 }
 
@@ -118,22 +118,10 @@ background: white;
   height: 350px;
   left: 900px;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  color: white;
+  color:black;
   font-size: 130%;
 }
 
-#funStuff {
-  background-color: blue;
-  line-height: 1.3;
-  position: relative;
-  top: -400px;
-  left: 1200px;
-  width: 600px;
-  height: 600px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 32px;
-}
 
 .section-dark{
   background-color: #282e34;
