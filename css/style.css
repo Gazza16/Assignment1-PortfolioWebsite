@@ -11,12 +11,11 @@ body, html {
   font-family: "lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666;
 }
 
 .welcome, .aboutMe, .contactInfo , .projects{
   position: relative;
-  background-color: white;
+ 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +25,7 @@ body, html {
 .welcome{
   /* Background image will go here */
   /* background-image: url('../images/image1.jpeg');*/
-background: white;
+  background: white;
   min-height: 100%;
 }
 
@@ -47,11 +46,13 @@ background: white;
 
 .aboutMe{
   /* background-image: url('../images/image2.jpeg'); */
+  background: red;
   min-height: 100%;
 }
 
 .contactInfo{
   /* background-image: url('../images/image3.jpeg'); */
+  background: green;
   min-height: 100%;
 }
 
