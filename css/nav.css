@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
+
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: "'Iceland', 'cursive'";
+	font-weight: 800;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 190px;
+  position: relative;
+	font-family: 'Montserrat', sans-serif;   /*Changing the font of the nav bar*/
+	letter-spacing: 4px;
+}
+
+nav a {
+  font-family: 'Sarpanch', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+nav a:hover {
+  color: #cc2222;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 1.5px;
+  background-color: #cc2222;
+	margin-top: -10px;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.navBackground{
+  background-color: #515657; /* change the colour of the navbar background*/
+  color:black;
+  height: 18px;
+  background:black;
+  border: 0.5px solid #700606;
+  text-align: center;
+  padding: 18px;
+}
