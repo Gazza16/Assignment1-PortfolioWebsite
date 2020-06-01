@@ -84,19 +84,17 @@ body, html {
 #about_me_text_container {
   border: solid orange 4px;
   position: relative;
-  left: 230px;
   display: flex;
   width: 1400px;
   height: 700px;
   top: 50px;
-  
   text-align: center;
   display: inline-block
 }
 
 #about_me_text {
   border: solid red 4px;
-
+  margin: 0 auto;
   width: 500px;
   height: 100px;
 }
