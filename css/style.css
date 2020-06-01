@@ -15,7 +15,6 @@ body, html {
 
 .welcome, .aboutMe, .contactInfo , .projects{
   position: relative;
- 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,8 +23,7 @@ body, html {
 
 .welcome{
   /* Background image will go here */
-  /* background-image: url('../images/image1.jpeg');*/
-  background: white;
+  background-image: url('../images/image1.jpeg');
   min-height: 100%;
 }
 
@@ -45,19 +43,17 @@ body, html {
 }
 
 .aboutMe{
-  /* background-image: url('../images/image2.jpeg'); */
-  background: red;
+  background-image: url('../images/image2.jpeg');
   min-height: 100%;
 }
 
 .contactInfo{
-  /* background-image: url('../images/image3.jpeg'); */
-  background: green;
+  background-image: url('../images/image4.jpeg'); 
   min-height: 100%;
 }
 
 .projects {
-  /* background-image: url('../images/image4.jpeg'); */
+  background-image: url('../images/image3.jpeg');
   min-height: 100%;
 }
 
@@ -85,6 +81,22 @@ body, html {
   font-size: 45px;
 }
 
+#text_container {
+  position: relative;
+  width: 1400px;
+  height: 700px;
+  border: solid orange 4px;
+  top: 50px;
+  margin: auto;
+}
+
+#about_me_text {
+  border: solid red 4px;
+  width: 400px;
+  height: 200px;
+  margin: auto
+}
+
 .divText {
   line-height: 1.3;
   position: relative;
@@ -98,36 +110,10 @@ body, html {
   font-size: 32px;
 }
 
-#aboutMeText {
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-  line-height: 1.3;
-  position: relative;
-  top: 180px;
-  margin: 0;
-  left: 100px;
-  width: 600px;
-  height: 350px;
-  color:black;
-  font-size: 130%;
-}
-
-#aboutMeText1 {
-  line-height: 1.3;
-  position: relative;
-  top: -175px;
-  width: 600px;
-  height: 350px;
-  left: 900px;
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-  color:black;
-  font-size: 130%;
-}
-
-
 .section-dark{
   background-color: #282e34;
   color: #ddd;
-  height: 5px;
+  height: 1px;
   background: black;
   padding-top: 5px;
 }

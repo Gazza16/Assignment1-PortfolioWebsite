@@ -19,6 +19,7 @@ header::after {
 
 nav {
   float: center;
+  position: absolute
 }
 
 nav ul {
@@ -65,11 +66,11 @@ nav a:hover::before {
 }
 
 .navBackground{
-  background-color: #515657; /* change the colour of the navbar background*/
+  
   color:black;
   height: 18px;
   background:black;
-  border: 0.5px solid #700606;
+  border-bottom: 2px solid rgb(254, 31, 51);
   text-align: center;
   padding: 18px;
 }
