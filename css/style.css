@@ -82,19 +82,21 @@ body, html {
 }
 
 #about_me_text_container {
+  border: solid orange 4px;
   position: relative;
+  left: 230px;
   display: flex;
   width: 1400px;
   height: 700px;
-  border: solid orange 4px;
   top: 50px;
-  margin: auto;
+  
   text-align: center;
   display: inline-block
 }
 
 #about_me_text {
   border: solid red 4px;
+
   width: 500px;
   height: 100px;
 }
@@ -105,25 +107,13 @@ body, html {
 }
 
 #about_me_subtext div{
-  display: inline-block
+  display: inline-block;
 }
 
-#about_me_1 {
+.subtext {
   border: solid black 1px;
-  height: 150px;
-  width: 300px
-}
-
-#about_me_2 {
-  border: solid black 1px;
-  height: 150px;
-  width: 300px
-}
-
-#about_me_3 {
-  border: solid black 1px;
-  height: 150px;
-  width: 300px
+  height: 275px;
+  width: 400px;
 }
 
 .divText {

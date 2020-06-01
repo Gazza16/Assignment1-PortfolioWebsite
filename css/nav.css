@@ -3,18 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Iceland&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 
-
-body {
-	margin: 0;
-	background: #222;
-	font-family: "'Iceland', 'cursive'";
-	font-weight: 800;
+.navBar {
+  position: fixed;
+  top: 0
 }
 
-header::after {
-  content: '';
-  display: table;
-  clear: both;
+.navBackground{
+  color:black;
+  height: 18px;
+  background:black;
+  border-bottom: 2px solid rgb(254, 31, 51);
+  text-align: center;
+  padding: 18px;
 }
 
 nav {
@@ -65,12 +65,5 @@ nav a:hover::before {
   width: 100%;
 }
 
-.navBackground{
-  
-  color:black;
-  height: 18px;
-  background:black;
-  border-bottom: 2px solid rgb(254, 31, 51);
-  text-align: center;
-  padding: 18px;
-}
+
+
