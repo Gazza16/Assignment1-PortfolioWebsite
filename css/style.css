@@ -81,20 +81,49 @@ body, html {
   font-size: 45px;
 }
 
-#text_container {
+#about_me_text_container {
   position: relative;
+  display: flex;
   width: 1400px;
   height: 700px;
   border: solid orange 4px;
   top: 50px;
   margin: auto;
+  text-align: center;
+  display: inline-block
 }
 
 #about_me_text {
   border: solid red 4px;
-  width: 400px;
-  height: 200px;
-  margin: auto
+  width: 500px;
+  height: 100px;
+}
+
+#about_me_subtext {
+  border: solid red 4px;
+  
+}
+
+#about_me_subtext div{
+  display: inline-block
+}
+
+#about_me_1 {
+  border: solid black 1px;
+  height: 150px;
+  width: 300px
+}
+
+#about_me_2 {
+  border: solid black 1px;
+  height: 150px;
+  width: 300px
+}
+
+#about_me_3 {
+  border: solid black 1px;
+  height: 150px;
+  width: 300px
 }
 
 .divText {
