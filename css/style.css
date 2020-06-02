@@ -13,7 +13,8 @@ body, html {
   line-height: 1.8em;
 }
 
-.welcome, .aboutMe, .contactInfo, .projects{
+/* Basic layout of every new page will take from this class section */
+.welcome, .aboutMe, .contactInfo, .projects {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -25,17 +26,6 @@ body, html {
   /* Background image will go here */
   background-image: url('../images/image1.jpeg');
   min-height: 100%;
-}
-
-.welcomeText{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
 }
 
 .welcomeText .border.trans{
@@ -57,7 +47,18 @@ body, html {
   min-height: 100%;
 }
 
-.titleHeader {
+.welcomeText{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.PageHeader {
   border: solid red 1px;
   font-family: 'courier';
   top: 80px;

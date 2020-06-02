@@ -8,14 +8,16 @@
 }
 
 .navBackground{
-  position: relative;
+  position: fixed;
   top: 0;
+  width: 100%;
   color:black;
   height: 18px;
   background:black;
-  border-bottom: 2px solid rgb(254, 31, 51);
+  border-bottom: 1px solid rgb(254, 31, 51);
   text-align: center;
   padding: 18px;
+  z-index: 1
 }
 
 nav {
