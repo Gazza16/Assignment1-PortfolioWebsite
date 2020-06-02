@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 
 .navBar {
-  position: fixed;
-  top: 0
+  
 }
 
 .navBackground{
+  position: relative;
+  top: 0;
   color:black;
   height: 18px;
   background:black;
@@ -19,7 +20,7 @@
 
 nav {
   float: center;
-  position: absolute
+  position: sticky
 }
 
 nav ul {

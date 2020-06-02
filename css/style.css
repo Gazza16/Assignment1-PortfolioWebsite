@@ -13,7 +13,7 @@ body, html {
   line-height: 1.8em;
 }
 
-.welcome, .aboutMe, .contactInfo , .projects{
+.welcome, .aboutMe, .contactInfo, .projects{
   position: relative;
   background-position: center;
   background-size: cover;
@@ -58,6 +58,7 @@ body, html {
 }
 
 .titleHeader {
+  border: solid red 1px;
   font-family: 'courier';
   top: 80px;
   position: relative;
@@ -82,14 +83,14 @@ body, html {
 }
 
 #about_me_text_container {
-  border: solid orange 4px;
   position: relative;
   display: flex;
-  width: 1400px;
+  flex-direction: column;
+  width: 100%;
   height: 700px;
   top: 50px;
   text-align: center;
-  display: inline-block
+  
 }
 
 #about_me_text {
@@ -101,11 +102,14 @@ body, html {
 
 #about_me_subtext {
   border: solid red 4px;
-  
+  display: flex;
+  justify-content: center;
+
 }
 
 #about_me_subtext div{
   display: inline-block;
+  margin: 45px;
 }
 
 .subtext {
@@ -157,6 +161,10 @@ body, html {
   margin: 0 auto;
   top: 210px;
   margin: 50px;
+}
+
+#projects_container {
+  border: solid orange 2px; 
 }
 
 
