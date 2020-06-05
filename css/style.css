@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
 
 body, html {
   height: 100%;
@@ -43,7 +40,7 @@ body, html {
 }
 
 .aboutme-background {
-  background-color: rgba(76, 76, 76, 0.65);
+  
   max-width: 85%;
 }
 
@@ -57,28 +54,53 @@ body, html {
 }
 
 #about_me_text {
-  border: solid red 3px;
   margin: 0 auto;
   width: 500px;
   height: 100px;
   margin-bottom: 30px;
+  font-family: courier           /* change font here */
+}
+
+#about_me_text h3 {
+  font-family: 'Courier New', Courier, monospace
 }
 
 #about_me_subtext {
-  border: solid red 3px;
+
   display: flex;
   justify-content: center;
 }
 
+#about_me_subtext_reverse {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
 #about_me_subtext div{
   display: inline-block;
-  margin: 45px;
+  padding: 45px;
   border: black solid 3px;
-  flex: 1
+}
+
+#about_me_subtext_reverse div {
+  display: inline-block;
+  padding: 45px;
+  border: black solid 3px;
+}
+
+#box1 {
+  flex-grow: 1;
+  border: black solid 3px;
+}
+
+#box1 a:hover {
+  color: #cc2222;
 }
 
 #box2 {
-  flex: 1
+  flex-grow: 3
 }
 
 .contactInfo{
@@ -93,12 +115,10 @@ body, html {
 }
 
 #abot_me_subtext div {
-  border: solid black 3px
+  border: solid black 1px
 }
 
-
 .PageHeader {
-  border: solid red 1px;
   font-family: 'courier';
   top: 40px;
   text-align: center;
@@ -108,12 +128,21 @@ body, html {
   color:black;
   font-size: 45px;
   margin-bottom: 30px;
+ 
+}
+
+.PageHeader h2 {
+  font-family: 'Lexend Peta', sans-serif;
+
 }
 
 .subtext {
-  border: solid black 1px;
   height: 275px;
   width: 400px;
+}
+
+.subtext p {
+  font-family: 'Courier New'           /* Change font here */
 }
 
 .divText {
@@ -160,8 +189,6 @@ body, html {
   top: 210px;
   margin: 50px;
 }
-
-
 
 @media(max-width:568px){
   .welcome, .aboutMe, .contactInfo, .projects{

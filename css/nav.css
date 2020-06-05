@@ -34,7 +34,7 @@ nav li {
   display: inline-block;
   margin-left: 190px;
   position: relative;
-	font-family: 'Montserrat', sans-serif;   /*Changing the font of the nav bar*/
+	font-family: 'Courier New', Courier, monospace   /*Changing the font of the nav bar*/
 	letter-spacing: 4px;
 }
 
