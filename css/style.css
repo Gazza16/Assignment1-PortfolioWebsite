@@ -10,7 +10,7 @@ body, html {
 }
 
 /* Basic layout of every new page will take from this class section */
-.welcome, .aboutMe, .contactInfo, .projects {
+.welcome, .aboutMe, .contactInfo, .projects, .blog {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -39,8 +39,25 @@ body, html {
   text-transform: uppercase;
 }
 
+.PageHeader {
+  font-family: 'courier';
+  top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+  height: 100px;
+  color:black;
+  font-size: 45px;
+  margin-bottom: 30px;
+ 
+}
+
+.PageHeader h2 {
+  font-family: 'Lexend Peta', sans-serif;
+
+}
+
 .aboutme-background {
-  
   max-width: 85%;
 }
 
@@ -53,14 +70,6 @@ body, html {
   align-items: center
 }
 
-#about_me_text {
-  margin: 0 auto;
-  width: 500px;
-  height: 100px;
-  margin-bottom: 30px;
-  font-family: courier           /* change font here */
-}
-
 #about_me_text h3 {
   font-family: 'Courier New', Courier, monospace
 }
@@ -69,6 +78,10 @@ body, html {
 
   display: flex;
   justify-content: center;
+}
+
+#abot_me_subtext div {
+  border: solid black 1px
 }
 
 #about_me_subtext_reverse {
@@ -90,22 +103,21 @@ body, html {
   border: black solid 3px;
 }
 
-#box1 {
-  flex-grow: 1;
-  border: black solid 3px;
+#about_me_text {
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 30px;
+  font-family: courier           /* change font here */
 }
 
-#box1 a:hover {
-  color: #cc2222;
-}
-
-#box2 {
-  flex-grow: 3
-}
-
-.contactInfo{
-  background-image: url('../images/image4.jpeg'); 
+.projects {
+  background-image: url('../images/image3.jpeg');
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 
 .projects {
@@ -114,28 +126,59 @@ body, html {
   
 }
 
-#abot_me_subtext div {
-  border: solid black 1px
-}
-
-.PageHeader {
-  font-family: 'courier';
-  top: 40px;
-  text-align: center;
-  margin: 0 auto;
-  width: 700px;
-  height: 100px;
-  color:black;
-  font-size: 45px;
-  margin-bottom: 30px;
+#box1 {
+  flex-grow: 1;
  
 }
 
-.PageHeader h2 {
-  font-family: 'Lexend Peta', sans-serif;
+#box2 {
+  flex-grow: 3
+}
+
+.skills {
+  background-image: url('../images/image2.jpeg');
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 
 }
 
+.blog {
+  background-image: url('../images/image3.jpeg');
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#blog_container_2 {
+  margin: auto;
+  height: 400px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+
+#blog_box {
+  
+}
+
+.contactInfo{
+  background-image: url('../images/image4.jpeg'); 
+  min-height: 100%;
+}
 .subtext {
   height: 275px;
   width: 400px;
@@ -143,6 +186,30 @@ body, html {
 
 .subtext p {
   font-family: 'Courier New'           /* Change font here */
+}
+
+#skills_subtext {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 45px;
+  margin: auto;
+}
+
+#skills_text {
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 30px;
+  font-family: courier           /* change font here */
+}
+
+#tech-stack {
+
+}
+
+ul {
+  list-style-type: none;
 }
 
 .divText {

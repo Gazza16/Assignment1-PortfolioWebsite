@@ -32,10 +32,10 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 190px;
+  margin-left: 140px;
   position: relative;
-	font-family: 'Courier New', Courier, monospace   /*Changing the font of the nav bar*/
-	letter-spacing: 4px;
+	font-family: 'Courier New', Courier, monospace;   /*Changing the font of the nav bar*/
+	letter-spacing: 2px;
 }
 
 nav a {
@@ -43,7 +43,7 @@ nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 nav a:hover {
